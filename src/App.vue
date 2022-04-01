@@ -1,8 +1,8 @@
 <template>
   <div>
    <Header/>
-   我好
-   <Footer/>
+   <router-view></router-view>
+   <Footer v-show="$route.meta.show"/>
   </div>
 </template>
 
